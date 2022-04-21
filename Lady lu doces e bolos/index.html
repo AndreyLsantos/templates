@@ -1,0 +1,210 @@
+<!-- by : pand4br dev ʕ•́ᴥ•̀ʔ -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/cc296cbc2d.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/slide.css" />
+
+    <title>Lady Lu</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <div class="container-all">
+        <div class="container-bg container">
+            <div class="container-mobile">
+                <h1>LadyLu</h1>
+                <input type="checkbox" id="checkbox-menu" onclick="touggle()" />
+                <label class="label-none" for="checkbox-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <div class="midia-sociais">
+                    <a href="#"><img src="img/insta.png" alt="" /></a>
+                    <a href="#"><img src="img/face.png" alt="" /></a>
+                    <a href="#"><img src="img/wpp.png" alt="" /></a>
+                </div>
+            </div>
+            <nav data-anime="left" class="nav-bar nonavbar">
+                <ul class="navb">
+                    <li><a class="nav-link" href="index.html">A LadyLu</a></li>
+                    <li><a class="nav-link" href="#galer">Galeria</a></li>
+                    <li><a class="nav-link" href="#sob">Cardápio</a></li>
+                    <li><a class="nav-link" href="#sob">Sobre</a></li>
+                    <li><a class="nav-link" href="#cont">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Slideshow -->
+
+    <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                class="active btn btn-light" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/ilustration2.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-light">....</h5>
+                    <p class="text-light">....</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/ilustration1.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-light">....</h5>
+                    <p class="text-light">....</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Sobre Nos -->
+    <div id="sob" class="container-fluid cardapio">
+        <h1 class="mt-1 text-center  textColorMarron" data-anime="right">Sobre Nós</h1>
+    </div>
+    <div class="container container-sobre-nos">
+
+        <div class="text-sobre-nos">
+            <p data-anime="left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac
+                molestie risus, nec suscipit nunc. Mauris bibendum augue in elit
+                mattis, vel viverra ante efficitur. Sed iaculis vulputate ex, lacinia
+                iaculis risus tincidunt vitae. Aliquam vestibulum vehicula
+                scelerisque. Etiam rhoncus laoreet tristique. Donec tellus nibh,
+                rutrum molestie turpis et, tempor pellentesque lectus. Nulla quis
+                turpis non metus congue fermentum at sit amet elit. Phasellus rutrum
+                ipsum dui. Suspendisse et diam quis enim lacinia efficitur nec
+                facilisis lectus
+            </p>
+        </div>
+        <div class="container-bg-sobre">
+            <!-- <img src="/img/ladylu-logo1.png" alt=""> -->
+            <img src="img/ladylu-logo1.jpg" data-anime="top" alt="">
+        </div>
+    </div>
+
+     <!-- cardapio -->
+     <div id="cardapio" class="container-fluid colorMarrom">
+        <h1 data-anime="left" class="mt-1 p-3 text-center text-light">Cardápio</h1>
+    </div>
+    <div class="container car-items">
+        <a href="bolos.html">
+            <div data-anime="left" class="card-item">
+                <img src="/img/bg_bolos.png" alt="">
+                <h1>BOLOS</h1>
+            </div>
+        </a>
+
+        <a href="salgados.html">
+            <div data-anime="top" class="card-item">
+                <img src="/img/bg_salgados.png" alt="">
+                <h1>Salgados</h1>
+            </div>
+        </a>
+
+        <a href="doces.html">
+            <div data-anime="right" class="card-item">
+                <img src="/img/bg_doces.png" alt="">
+                <h1>DOCES</h1>
+            </div>
+        </a>
+    </div>
+
+    <!-- Galeria -->
+    <div id="galer" class="container-fluid colorMarrom">
+        <h1 data-anime="left" class="mt-1 p-3 text-center text-light">Galeria</h1>
+    </div>
+    <div class="container p-5 doces-area">
+        <div class="models">
+            <div class="doces-item " data-anime="right">
+                <a href="">
+                    <div class="doces-item--img"><img src="" /></div>
+                </a>
+                <div class="doces-item--name">--</div>
+                <div class="doces-item--desc">--</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="button-vermais">
+        <a href="galeria.html">VER MAIS</a>
+    </div> -->
+
+    <div id="cont" class="container-fluid cardapio">
+        <h1 class="mt-1 text-center  textColorMarron" data-anime="right">Onde nos achar</h1>
+    </div>
+    <div class="container mb-5 mt-5 container-dflex">
+        <div data-anime="left"  class="map" id="map"></div>
+    </div>
+
+    <div class="container-all">
+        <div class="container-bg container">
+            <div class="container-mobile">
+                <h1>LadyLu</h1>
+                <input type="checkbox" id="checkbox-menu" onclick="touggle()" />
+                <label class="label-none" for="checkbox-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <div class="midia-sociais">
+                    <a href="#"><img src="img/insta.png" alt="" /></a>
+                    <a href="#"><img src="img/face.png" alt="" /></a>
+                    <a href="#"><img src="img/wpp.png" alt="" /></a>
+                </div>
+            </div>
+            <nav data-anime="left" class="nav-bar nonavbar">
+                <ul class="navb">
+                    <li><a class="nav-link" href="#">A LadyLu</a></li>
+                    <li><a class="nav-link" href="#">Produtos</a></li>
+                    <li><a class="nav-link" href="#">Sobre</a></li>
+                    <li><a class="nav-link" href="#">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <footer  class="text-center colorMarrom">
+        <div  class="container-fluid p-3 colorMarrom">
+            <p  class="mt-3  text-light">Todos os direitos reservados LadyLu° 2022</p>
+            <a style="display: inline-block;" href="">
+                <p>by:andreyluiz</p>
+            </a>
+        </div>
+    </footer>
+
+  
+    <script async defer
+
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARoYs5Lw4ud6nvapigwOEc_zTJ4ghQWDk&callback=initMap">
+
+    </script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/lady.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
